@@ -19,11 +19,10 @@ h1 {
     margin: auto;
     background-color: antiquewhite;
     border: solid 2px #212427;
-
     display: flex;
-    justify-content: space-between; 
+    justify-content: flex-start; 
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: row;
 
 }
 
@@ -35,20 +34,21 @@ h1 {
 }
 
 .cor1 {
-    order: 0;
+
     background-color: #ED145B;
+    align-self: flex-start;
 }
 
 .cor2 {
-    order: 2;
+    order: 3;
     background-color: #63B1BC;
-    margin-left: 160px;
+align-self: flex-end;
 }
 
 .cor3 {
-    order: 1;
+
     background-color: #EFB661;
-    margin-left: 80px;
+align-self: center ;
 }
 
 .instrucoes {
